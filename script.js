@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // YENİ KONTROL: Metin Değişimi
         if (escapeCount >= FORCE_CHANGE_COUNT) {
             // EVET Butonu metnini değiştir (uzatma işte)
-            yesBtn.textContent = 'uzatma işte sende istiyorsuunn';
+            yesBtn.textContent = 'EVET DE ARTIK😘';
 
             // YENİ İSTEK: HAYIR Butonu metnini değiştir
             noBtn.textContent = 'ya bi siktir git 😠';
@@ -86,4 +86,5 @@ document.addEventListener('DOMContentLoaded', () => {
         yesMessage.classList.remove('hidden');
         container.style.boxShadow = '0 0 30px rgba(76, 175, 80, 0.6)';
     });
+
 });
